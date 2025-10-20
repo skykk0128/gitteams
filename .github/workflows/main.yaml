@@ -7,9 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: foo
-        uses: skykk0128/gitteams@caafec6ad0b6e13745741edf845f53960c75c60d
+        uses: skykk0128/gitteams@58fe5ee6431d5984bf5d9059fb0034e40f5cfbe0
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'Steven Wang'
       - run: echo random-number "$RANDOM_NUMBER"
         shell: bash
         env:
