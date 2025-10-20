@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: foo
-        uses: OWNER/gitteams@SHA
+        uses: skykk0128/gitteams@caafec6ad0b6e13745741edf845f53960c75c60d
         with:
           who-to-greet: 'Mona the Octocat'
       - run: echo random-number "$RANDOM_NUMBER"
